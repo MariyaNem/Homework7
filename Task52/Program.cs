@@ -68,9 +68,7 @@ double[] AverageEachColomn(double[] sumArr, int[,] matrix)
         sumArr[i] = Math.Round(sumArr[i] / matrix.GetLength(0), 1);
     }
     return sumArr;
-
 }
-
 
 int[,] array2D = CreateMatrixRndInt(3, 4, 1, 9);
 PrintMatrix(array2D);
